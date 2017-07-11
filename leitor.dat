@@ -1,0 +1,16 @@
+Programa volumes finitos
+-------------------------------------
+comprimento de a       	       =  0.5
+comprimento da b      	       =  1.
+numero de volumes em a         =  10
+numero de volumes em b         =  10
+condutividade termica          =  50.2
+fluxo termico                  =  100000.
+Condição de contorno para cada face
+1- temperatura prescrita
+2- fluxo prescrito
+3- fluxo convectivo
+cc na face leste               =    1
+cc na face oeste               =    2
+cc na face norte               =    3
+cc na face sul                 =    1 

@@ -3,7 +3,6 @@ subroutine calc (npx,dy,msh,n,k,width,height,an,q,t,dxm)
     real :: dy,dxm, k, q, width, height, t(1000000), t0(1000000), error(1000000), err_1, err_0
     real, dimension (100000,10) :: msh, an
     integer i,n,npx
-    open (unit=2, file='temperatura.dat')
 
     do i=1,n
         if (msh(i,2)==0) then
